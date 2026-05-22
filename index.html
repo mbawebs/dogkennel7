@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ZAG KENNELS | FAT JOE</title>
+  <title>PACKINHEAT KENNELS | BATMAN</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
   <style>
 
     :root{
-      --black:#050505;
-      --panel:#0d0d0d;
-      --white:#f5f5f5;
-      --muted:#9d9d9d;
-      --red:#d00000;
-      --red2:#ff2a2a;
-      --darkred:#4d0000;
-      --line:rgba(255,0,0,.22);
+      --black:#030406;
+      --panel:#0b0f14;
+      --white:#f1f5ff;
+      --muted:#8a95a5;
+      --blue:#4f78ff;
+      --blue2:#7ea2ff;
+      --darkblue:#111827;
+      --line:rgba(110,140,255,.18);
     }
 
     *{
@@ -32,7 +32,7 @@
 
     body{
       font-family:'Montserrat',sans-serif;
-      background:#050505;
+      background:#030406;
       color:var(--white);
       overflow-x:hidden;
     }
@@ -47,26 +47,26 @@
       position:fixed;
       inset:0;
       background:
-      linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.96)),
+      linear-gradient(rgba(0,0,0,.92),rgba(0,0,0,.97)),
       repeating-linear-gradient(
         0deg,
-        #0c0c0c 0px,
-        #0c0c0c 38px,
-        #070707 39px,
-        #070707 42px
+        #0b0f14 0px,
+        #0b0f14 38px,
+        #05070b 39px,
+        #05070b 42px
       );
       z-index:-3;
     }
 
     body::after{
-      content:"ZAG KENNELS / EXTREME NANO / FAT JOE / RAW VIBES / STREET BLOOD /";
+      content:"PACKINHEAT KENNELS / HOME OF BATMAN / QUALITY OVER QUANTITY / WHERE THE HEAT IS /";
       position:fixed;
       bottom:15px;
       left:-100px;
       font-family:'Teko',sans-serif;
       font-size:8vw;
       white-space:nowrap;
-      color:rgba(255,0,0,.05);
+      color:rgba(126,162,255,.05);
       z-index:-1;
       pointer-events:none;
     }
@@ -92,11 +92,11 @@
       text-transform:uppercase;
       letter-spacing:2px;
       color:#fff;
-      text-shadow:4px 4px 0 var(--darkred);
+      text-shadow:4px 4px 0 #1b2433;
     }
 
     .logo span{
-      color:var(--red2);
+      color:var(--blue2);
     }
 
     .nav-tag{
@@ -106,8 +106,8 @@
       text-transform:uppercase;
       font-weight:900;
       padding:8px 14px;
-      border:1px solid rgba(255,0,0,.3);
-      background:rgba(255,0,0,.08);
+      border:1px solid rgba(126,162,255,.3);
+      background:rgba(126,162,255,.08);
     }
 
     .nav-links{
@@ -121,7 +121,7 @@
     }
 
     .nav-links a:hover{
-      color:var(--red2);
+      color:var(--blue2);
     }
 
     .hero{
@@ -141,34 +141,34 @@
       position:absolute;
       inset:0;
       background:
-      linear-gradient(to right, rgba(0,0,0,.96), rgba(0,0,0,.58), rgba(0,0,0,.94)),
+      linear-gradient(to right, rgba(0,0,0,.97), rgba(0,0,0,.65), rgba(0,0,0,.96)),
       url('assets/hero/hero.png');
       background-size:cover;
       background-position:center;
       z-index:-2;
-      filter:contrast(1.05) saturate(1.1);
+      filter:contrast(1.1) brightness(.8) saturate(.9);
     }
 
     .hero::after{
-      content:"RAW";
+      content:"BATMAN";
       position:absolute;
       top:120px;
       right:50px;
       font-family:'Teko',sans-serif;
       font-size:10rem;
-      color:rgba(255,0,0,.08);
+      color:rgba(126,162,255,.06);
       z-index:-1;
     }
 
     .hero-left{
-      border-left:10px solid var(--red);
+      border-left:10px solid var(--blue2);
       padding-left:28px;
     }
 
     .eyebrow{
       display:inline-block;
       margin-bottom:18px;
-      color:var(--red2);
+      color:var(--blue2);
       font-size:.75rem;
       text-transform:uppercase;
       font-weight:900;
@@ -181,17 +181,17 @@
       line-height:.8;
       text-transform:uppercase;
       letter-spacing:-2px;
-      text-shadow:5px 5px 0 var(--darkred);
+      text-shadow:5px 5px 0 #1b2433;
     }
 
     .slash{
-      color:var(--red2);
+      color:var(--blue2);
     }
 
     .hero-copy{
       margin-top:24px;
       max-width:620px;
-      color:#d1d1d1;
+      color:#d1d7e5;
       line-height:1.8;
       border-top:1px solid var(--line);
       padding-top:20px;
@@ -207,7 +207,7 @@
     .btn{
       padding:16px 24px;
       border:1px solid var(--line);
-      background:#101010;
+      background:#10151d;
       color:#fff;
       font-size:.75rem;
       text-transform:uppercase;
@@ -217,19 +217,19 @@
     }
 
     .btn.red{
-      background:linear-gradient(135deg,#ff2a2a,#750000,#111);
+      background:linear-gradient(135deg,#7ea2ff,#26334f,#05070b);
     }
 
     .btn:hover{
       transform:translate(-3px,-3px);
-      box-shadow:6px 6px 0 rgba(255,0,0,.3);
+      box-shadow:6px 6px 0 rgba(126,162,255,.2);
     }
 
     .hero-panel{
       display:grid;
       grid-template-rows:1fr auto;
       border:1px solid var(--line);
-      background:rgba(10,10,10,.75);
+      background:rgba(10,12,18,.78);
       backdrop-filter:blur(5px);
       overflow:hidden;
       min-height:500px;
@@ -261,7 +261,7 @@
       display:block;
       font-family:'Teko',sans-serif;
       font-size:2rem;
-      color:var(--red2);
+      color:var(--blue2);
     }
 
     .stat span{
@@ -289,7 +289,7 @@
       font-family:'Teko',sans-serif;
       font-size:5rem;
       line-height:.8;
-      color:var(--red2);
+      color:var(--blue2);
     }
 
     .section-header h2{
@@ -297,7 +297,7 @@
       font-size:clamp(3rem,7vw,6rem);
       line-height:.85;
       text-transform:uppercase;
-      text-shadow:4px 4px 0 var(--darkred);
+      text-shadow:4px 4px 0 #1b2433;
     }
 
     .section-header p{
@@ -312,19 +312,19 @@
       grid-template-columns:45% 55%;
       min-height:520px;
       border:1px solid var(--line);
-      background:#0b0b0b;
+      background:#07090d;
       overflow:hidden;
       position:relative;
     }
 
     .dog-card::after{
-      content:"ZAG";
+      content:"PHK";
       position:absolute;
       right:30px;
       bottom:-20px;
       font-family:'Teko',sans-serif;
       font-size:11rem;
-      color:rgba(255,0,0,.06);
+      color:rgba(126,162,255,.05);
       z-index:1;
     }
 
@@ -333,7 +333,7 @@
       background-size:contain;
       background-position:center bottom;
       background-repeat:no-repeat;
-      background-color:#070707;
+      background-color:#05070b;
       border-right:1px solid var(--line);
     }
 
@@ -351,12 +351,12 @@
       font-size:4rem;
       line-height:.85;
       text-transform:uppercase;
-      text-shadow:3px 3px 0 var(--darkred);
+      text-shadow:3px 3px 0 #1b2433;
     }
 
     .dog-info h3 span{
       display:block;
-      color:var(--red2);
+      color:var(--blue2);
     }
 
     .info-list{
@@ -370,7 +370,7 @@
       justify-content:space-between;
       gap:18px;
       padding-bottom:10px;
-      border-bottom:1px solid rgba(255,0,0,.14);
+      border-bottom:1px solid rgba(126,162,255,.14);
     }
 
     .info-list b{
@@ -384,7 +384,7 @@
       display:inline-block;
       margin-top:20px;
       padding:10px 14px;
-      background:linear-gradient(135deg,#ff2a2a,#750000,#111);
+      background:linear-gradient(135deg,#7ea2ff,#26334f,#05070b);
       font-size:.72rem;
       text-transform:uppercase;
       font-weight:900;
@@ -416,7 +416,7 @@
       position:absolute;
       left:14px;
       bottom:14px;
-      background:linear-gradient(135deg,#ff2a2a,#750000,#111);
+      background:linear-gradient(135deg,#7ea2ff,#26334f,#05070b);
       padding:8px 12px;
       font-size:.7rem;
       text-transform:uppercase;
@@ -439,22 +439,22 @@
       font-size:clamp(3rem,8vw,7rem);
       line-height:.85;
       text-transform:uppercase;
-      text-shadow:4px 4px 0 var(--darkred);
+      text-shadow:4px 4px 0 #1b2433;
     }
 
     .contact h2 span{
-      color:var(--red2);
+      color:var(--blue2);
     }
 
     .contact p{
       margin:20px 0;
-      color:#c8c8c8;
+      color:#c8d1df;
       line-height:1.8;
     }
 
     .contact-box{
       border:1px solid var(--line);
-      background:#0b0b0b;
+      background:#07090d;
       padding:30px;
     }
 
@@ -466,7 +466,7 @@
       color:#777;
       font-size:.8rem;
       text-transform:uppercase;
-      background:#050505;
+      background:#030406;
     }
 
     @media(max-width:950px){
@@ -527,16 +527,16 @@
 <header class="navbar">
 
   <div class="logo">
-    ZAG <span>KENNELS</span>
+    PACKINHEAT <span>KENNELS</span>
   </div>
 
   <div class="nav-tag">
-    ✦ HOME OF THE EXTREME NANO ✦
+    ✦ WHERE THE HEAT IS ✦
   </div>
 
   <nav class="nav-links">
     <a href="#home">Home</a>
-    <a href="#studs">Studs</a>
+    <a href="#studs">Stud</a>
     <a href="#program">Program</a>
     <a href="#gallery">Gallery</a>
     <a href="#contact">Contact</a>
@@ -549,21 +549,21 @@
   <div class="hero-left">
 
     <div class="eyebrow">
-      ZAG KENNELS / EXTREME NANO BULLIES
+      PACKINHEAT KENNELS / HOME OF BATMAN
     </div>
 
     <h1>
-      ZAG<br>
+      PACKINHEAT<br>
       <span class="slash">KENNELS</span>
     </h1>
 
     <p class="hero-copy">
-      Home of the extreme nano movement. ZAG KENNELS brings raw structure, compact muscle, heavy heads, and street presence together into one program. Built different. Raised different. The best exotic bullies in the states with a real underground vibe.
+      Home of BATMAN and elite exotic productions built with real structure, heavy bone, compact muscle, and dark presence. PACKINHEAT KENNELS focuses on quality over quantity, producing some of the hardest exotic bullies in the states. Gothic energy. Real pressure. Real heat.
     </p>
 
     <div class="buttons">
-      <a href="#studs" class="btn red">View FAT JOE</a>
-      <a href="#contact" class="btn">Tap In</a>
+      <a href="#studs" class="btn red">VIEW BATMAN</a>
+      <a href="#contact" class="btn">TAP IN</a>
     </div>
 
   </div>
@@ -575,18 +575,18 @@
     <div class="hero-stats">
 
       <div class="stat">
-        <strong>ZAG</strong>
+        <strong>PHK</strong>
         <span>Bloodline</span>
       </div>
 
       <div class="stat">
-        <strong>FAT JOE</strong>
+        <strong>BATMAN</strong>
         <span>Main Stud</span>
       </div>
 
       <div class="stat">
-        <strong>NANO</strong>
-        <span>Extreme Type</span>
+        <strong>ELITE</strong>
+        <span>Exotic Type</span>
       </div>
 
     </div>
@@ -607,7 +607,7 @@
       <h2>Featured Stud</h2>
 
       <p>
-        FAT JOE is the face of ZAG KENNELS. Extreme compact structure, insane chest, crazy bone, and that bully look that turns heads instantly.
+        BATMAN is the face of PACKINHEAT KENNELS. Heavy structure, compact frame, crazy chest, and that dark exotic presence that separates him from the rest.
       </p>
     </div>
 
@@ -622,29 +622,29 @@
       <div>
 
         <h3>
-          <span>FAT JOE</span>
+          <span>BATMAN</span>
         </h3>
 
         <div class="info-list">
 
           <div>
             <b>Program</b>
-            <span>ZAG KENNELS</span>
+            <span>PACKINHEAT KENNELS</span>
           </div>
 
           <div>
             <b>Style</b>
-            <span>Extreme Nano Exotic</span>
+            <span>Extreme Exotic</span>
           </div>
 
           <div>
             <b>Structure</b>
-            <span>Compact / Wide / Heavy Bone</span>
+            <span>Compact / Heavy Bone / Wide</span>
           </div>
 
           <div>
             <b>Energy</b>
-            <span>Raw / Street / Dominant</span>
+            <span>Dark / Dominant / Elite</span>
           </div>
 
         </div>
@@ -652,7 +652,7 @@
       </div>
 
       <span class="badge">
-        Home of FAT JOE
+        Home of BATMAN
       </span>
 
     </div>
@@ -672,11 +672,11 @@
     <div>
 
       <h2>
-        ZAG Program
+        THE HEAT
       </h2>
 
       <p>
-        Focused on extreme nano productions with clean structure, massive heads, compact frames, and real exotic bully quality.
+        Producing elite exotics with dark style, compact structure, insane heads, and real kennel presence. Quality over quantity — always.
       </p>
 
     </div>
@@ -692,24 +692,24 @@
       <div>
 
         <h3>
-          STREET <span>BLOOD</span>
+          DARK <span>BLOOD</span>
         </h3>
 
         <div class="info-list">
 
           <div>
             <b>Focus</b>
-            <span>Extreme Nano Bullies</span>
+            <span>Elite Exotics</span>
           </div>
 
           <div>
             <b>Look</b>
-            <span>Short / Thick / Exotic</span>
+            <span>Compact / Heavy / Exotic</span>
           </div>
 
           <div>
             <b>Camp</b>
-            <span>ZAG KENNELS USA</span>
+            <span>PACKINHEAT USA</span>
           </div>
 
         </div>
@@ -717,7 +717,7 @@
       </div>
 
       <span class="badge">
-        Built Different
+        Quality Over Quantity
       </span>
 
     </div>
@@ -741,7 +741,7 @@
       </h2>
 
       <p>
-        Productions, street shots, future breedings, and all the raw energy behind ZAG KENNELS.
+        Productions, dark visuals, elite studs, future breedings, and the gothic atmosphere behind PACKINHEAT KENNELS.
       </p>
 
     </div>
@@ -772,7 +772,7 @@
     </h2>
 
     <p>
-      Contact ZAG KENNELS for stud inquiries, breedings, productions, available pups, and serious business only.
+      Contact PACKINHEAT KENNELS for breedings, stud inquiries, productions, available pups, and serious business only.
     </p>
 
   </div>
@@ -796,7 +796,7 @@
 <footer>
 
   <span>
-    © 2026 ZAG KENNELS
+    © 2026 PACKINHEAT KENNELS
   </span>
 
   <span>
